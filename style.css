@@ -1,0 +1,421 @@
+/* Font family */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,600&family=Lexend+Deca&family=Montserrat:wght@500&family=Nunito+Sans:opsz,wght@6..12,200;6..12,400&family=Rubik&display=swap");
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root */
+:root {
+  --font-familly: "Nunito Sans", sans-serif;
+  --padding-default: 20px;
+  --blue-backround: hsla(210, 100%, 96%, 1);
+  --color-button: hsla(229, 83%, 60%, 1);
+  --background-footer: #03071b;
+}
+
+body {
+  font-family: var(--font-familly);
+}
+
+/* Section Header */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--padding-default);
+}
+.logo-padd {
+  padding: 5px;
+}
+
+/* Section Crafting */
+#crafting-session {
+  background-color: var(--blue-backround);
+  padding: var(--padding-default);
+  display: flex;
+  flex-direction: column;
+  height: 493px;
+}
+
+h1 {
+  text-align: center;
+  line-height: 150%;
+}
+.crafting-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.crafting-head button {
+  padding: 16px 34px;
+  border-radius: 8px;
+  background-color: var(--color-button);
+  width: 167px;
+  height: 54px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  gap: 6px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.woman-dots {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.point-font {
+  margin-top: 22px;
+  position: relative;
+  right: 115px;
+}
+
+.woman {
+  display: block;
+  position: relative;
+  bottom: 80px;
+  border-radius: 15px;
+}
+
+.underline {
+  background: url(img/Vector-phone.svg) 0 bottom no-repeat;
+  background-size: contain;
+}
+
+/* Section 2: Brand Identity */
+#brand-identity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-default);
+}
+
+#brand-identity h1 {
+  font-size: 24px;
+  padding: 30px 0px;
+}
+
+.photo-brand-identity {
+  display: flex;
+  justify-content: center;
+}
+
+#brand-identity p {
+  text-align: center;
+  padding: 30px 0 20px 0px;
+  font-size: 16px;
+  line-height: 170%;
+}
+
+.underline-brand-identity {
+  background: url(img/underline-brand-identity.svg) 0 bottom no-repeat;
+  background-size: contain;
+}
+
+/* section 3: our services */
+
+#our-services h1 {
+  text-align: center;
+}
+#our-services {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--blue-backround);
+  padding: var(--padding-default);
+}
+
+.services-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.box {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 5px;
+  color: white;
+  position: relative;
+}
+
+/* .display { 
+  display: none;
+}*/
+.logo-style {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 30px;
+  padding: 10px;
+}
+
+.request {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  position: absolute;
+  bottom: 0px;
+  padding: 10px;
+}
+
+.box-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+/* Button Services */
+.viewmore-button {
+  background-color: var(--color-button);
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 187px;
+  height: 54px;
+  border-radius: 8px;
+  border: none;
+  padding: 16px 34px;
+  color: white;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+/* Section 4: Happy stories */
+#happy-stories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-default);
+}
+
+#happy-stories h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+.box-happy-stories {
+  background-color: #f4f6fe;
+  border-radius: 15px;
+  width: 100%;
+  margin-top: 40px;
+}
+.box-photo {
+  padding: 30px;
+  text-align: center;
+}
+.box-quote {
+  display: flex;
+  justify-content: center;
+}
+.box-text {
+  padding: 20px 20px 30px 20px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 170%;
+}
+.box-slider {
+  margin-top: 30px;
+}
+
+/* Section 5: Contact Us */
+
+#contact-us h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 70px;
+}
+
+.box-contact-us {
+  background-color: var(--blue-backround);
+  padding: 20px;
+}
+.wrap-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 30px;
+}
+.box-contact-us p {
+  font-size: 18px;
+  margin-left: 60px;
+}
+
+/* formulaire */
+form.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 30px 20px;
+  row-gap: 20px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0, 04);
+  position: relative;
+  top: 50px;
+}
+
+form > label {
+  color: #1a2630;
+}
+form > input {
+  border: 1px solid #e2e7ed;
+  border-radius: 6px;
+  min-height: 48px;
+}
+form > button {
+  margin-top: 10px;
+  width: 40vw;
+  padding: 16px 34px;
+  background-color: var(--color-button);
+  color: white;
+  border-radius: 8px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+/* section 6: updated */
+#updated {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: var(--padding-default);
+}
+
+.direction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+#updated h1 {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+.updated-contain {
+  background-color: var(--blue-backround);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ft-20 {
+  font-size: 20px;
+  line-height: 150%;
+  padding-left: 20px;
+}
+.updated-contain a {
+  font-size: 16px;
+  color: #4361ee;
+  text-decoration: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  padding: 15px;
+}
+
+#footer {
+  background-color: var(--background-footer);
+  padding: 30px 20px 20px 20px;
+}
+
+.icon-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+.social-media-footer {
+  display: flex;
+  flex-direction: row;
+
+  gap: 18px;
+}
+
+/* Footer */
+#footer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.form-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+}
+.footer-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 8px;
+  gap: 6px;
+  border: none;
+  color: white;
+  padding: 13px 26px;
+  background-color: var(--color-button);
+  width: 152px;
+  font-size: 16px;
+}
+
+.form-footer input {
+  background-color: black;
+  border-radius: 6px;
+  border: 1px solid #7b7c82;
+  height: 48px;
+}
+
+.contact-footer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.address-footer,
+.phone-footer,
+.email-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.explore-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  color: white;
+}
+.rights {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}

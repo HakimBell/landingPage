@@ -1,0 +1,55 @@
+@media screen and (min-width: 1440px) {
+  #header {
+    padding: 0 135px;
+  }
+  #crafting-session {
+    height: 623px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 135px;
+  }
+  .craftging-head {
+    gap: 60px;
+  }
+  h1 {
+    text-align: left;
+    line-height: 140%;
+    font-size: 54px;
+  }
+  .crafting-head button {
+    align-self: flex-start;
+  }
+  .point-font {
+    position: relative;
+    right: 260px;
+    top: 40px;
+  }
+
+  .woman {
+    width: 567px;
+    height: 616px;
+    object-fit: cover;
+  }
+
+  /* Section 2: Brand identity  */
+  #brand-identity {
+    padding: 110px 135px 82px 151px;
+  }
+  #brand-identity h1 {
+    font-size: 48px;
+  }
+  #brand-identity p {
+    font-size: 20px;
+  }
+
+  #brand-identity .pad-176 {
+    padding-right: 150px;
+    padding-left: 150px;
+  }
+  .brand-identity-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
+  }
+}

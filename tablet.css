@@ -1,0 +1,101 @@
+/* Tablet size */
+@media screen and (min-width: 768px) {
+  #header {
+    padding: 60px;
+  }
+
+  #crafting-session {
+    height: 334px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 60px;
+  }
+
+  .craftging-head {
+    gap: 10px;
+  }
+
+  h1 {
+    text-align: left;
+    line-height: 140%;
+    font-size: 34px;
+  }
+
+  .crafting-head button {
+    align-self: flex-start;
+  }
+
+  .woman-dots {
+    position: relative;
+    top: 20px;
+  }
+  .point-font {
+    position: relative;
+    top: 30px;
+  }
+
+  .woman {
+    height: 284px;
+    width: 279px;
+    position: relative;
+    top: -35px;
+    right: 5px;
+  }
+
+  /* Section 2: Brand identity */
+  #brand-identity {
+    padding: 60px;
+  }
+
+  #brand-identity .align-left {
+    text-align: left;
+  }
+  /* Section3: Our services */
+  #our-services {
+    padding: 60px;
+  }
+
+  /* Section 4: Happy stories */
+
+  .box-text {
+    font-size: 20px;
+    padding: 20px 30px 40px 30px;
+  }
+
+  /* Section 5 form */
+  .box-contact-us {
+    padding: 30px;
+  }
+  .wrap-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 40px;
+  }
+  form.contact-form {
+    position: relative;
+    top: 80px;
+  }
+
+  /* Section 6: updated */
+  .direction {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+  }
+  /* footer */
+  #footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .rights {
+    position: relative;
+    top: 235px;
+    right: 200px;
+  }
+}
