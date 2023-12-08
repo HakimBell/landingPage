@@ -23,13 +23,19 @@
   .point-font {
     position: relative;
     right: 260px;
-    top: 40px;
+    top: 60px;
   }
 
-  .woman {
-    width: 567px;
+  /* .woman {
+    
+  } */
+
+  .box-img-woman {
     height: 616px;
-    object-fit: cover;
+    min-width: 567px;
+    position: relative;
+    bottom: -80px;
+    right: 5px;
   }
 
   /* Section 2: Brand identity  */
@@ -51,5 +57,83 @@
     display: flex;
     flex-direction: row;
     gap: 56px;
+  }
+
+  /* Our services */
+
+  .services-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 0 125px;
+  }
+  .box:nth-child(n + 5) {
+    display: flex;
+  }
+  .font-p {
+    font-size: 20px;
+  }
+
+  .box-happy-stories {
+    min-width: 970px;
+    min-height: 383px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Contact us */
+  .box-contact-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .wrap-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+  }
+  /* Updated contain */
+  #updated {
+    padding: 30px;
+  }
+
+  .updated-contain:nth-child(n + 3) {
+    display: flex;
+  }
+
+  .updated-contain img {
+    max-height: 210px;
+  }
+
+  .direction {
+    display: flex;
+    column-gap: 50px;
+  }
+
+  /* Footer */
+
+  #footer {
+    padding: 60px 135px 20px 135px;
+  }
+  .wrapper-footer {
+    display: flex;
+    justify-content: space-around;
+  }
+  .rights {
+    margin-top: 50px;
+  }
+  .form-footer {
+    order: 4;
   }
 }
